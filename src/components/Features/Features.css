@@ -1,0 +1,17 @@
+.Features {
+	padding-block: var(--v-whitespace);
+	background-color: white;
+}
+
+.Features h2 {
+	text-align: center;
+	color: var(--primary-color);
+}
+
+.Features__Cards {
+	display: grid;
+	grid-gap: 3.5em 1em;
+	grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+
+	margin-top: 5em;
+}
