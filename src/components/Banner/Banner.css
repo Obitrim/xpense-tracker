@@ -1,0 +1,60 @@
+.Banner {
+	padding: calc(var(--topbar-h) + 3em) 0 3em;
+	overflow-x: hidden;
+
+	position: relative;
+}
+
+.Banner__Info {
+	margin-bottom: 2em;
+}
+
+.Banner__Info h1, 
+.Banner__Info h2 {
+	line-height: 90%;
+}
+
+.Banner__Info p {
+	margin-block: 1.5em;
+}
+
+.Banner__ChartWrapper {
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.Banner__ChartWrapper__Img {
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width: 768px) {
+	.Banner::before {
+		content: "";
+
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: -1;
+
+		width: 50%;
+		height: 80%;
+		border-bottom-left-radius: 50vw;
+		background-color: var(--primary-bg-color);
+	}
+
+	.Banner .Container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.Banner__ChartWrapper {
+		margin: 0;
+		margin-left: 1.5em;
+	}
+
+	.Banner__Info {
+		max-width: 550px;
+	}
+}
