@@ -14,7 +14,7 @@ const DeveloperFooter = (props) => {
     			</div>
     		</div>
     		<article className="DeveloperFooter__Info">
-    			<h2>About Developer</h2>
+    			<h2>Developer</h2>
     			<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Deleniti, nobis.</p>
     			<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Deleniti, nobis. icing elit. Deleniti, nobis lorem5 </p>
     			<strong>
