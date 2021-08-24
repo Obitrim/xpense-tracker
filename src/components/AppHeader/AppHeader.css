@@ -1,0 +1,9 @@
+.AppHeader {
+	--header-h: 100px;
+
+	position: sticky;
+	top: 0;
+
+	height: var(--header-h);
+	background-color: var(--primary-color);
+}
