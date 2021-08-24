@@ -1,11 +1,26 @@
 import React from 'react';
+import { Switch } from "react-router-dom";
+
+/* COMPONENTS */
 import AppHeader from "../../components/AppHeader";
+import ProtectedRoute from "../../components/ProtectedRoute";
+
+/* VIEWS */
+import Loans from "./Loan";
+import Learn from "./Learn";
+import Accounts from "./Accounts";
+import Dashboard from "./Dashboard";
 
 const ProtectedViews = (props) => {
   return (
     <section>
     	<AppHeader />
-    	<section>Main</section>
+    	<Switch>
+    		<ProtectedRoute path="/app" exact component={Dashboard} />
+    		<ProtectedRoute path="/app/accounts" component={Accounts} />
+    		<ProtectedRoute path="/app/loans" component={Loans} />
+    		<ProtectedRoute path="/app/learn" component={Learn} />
+    	</Switch>
     </section>
   )
 }
