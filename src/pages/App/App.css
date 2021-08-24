@@ -41,6 +41,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
+	z-index: -1;
 
 	height: 100%;
 	width: 100%;
@@ -51,6 +52,14 @@
 }
 
 .LayeredButton::before {
+	transition: 0.25s ease-in-out;
+}
+
+.LayeredButton::after {
+	transition: 0.28s ease-in-out;
+}
+
+.LayeredButton:hover::before {
 	left: 10px;
 	z-index: -1;
 
@@ -58,7 +67,7 @@
 	background-color: #ca8edb;
 }
 
-.LayeredButton::after {
+.LayeredButton:hover::after {
 	left: 20px;
 	z-index: -2;
 
