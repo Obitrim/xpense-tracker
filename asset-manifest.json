@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/xpense-tracker/static/css/main.338f07be.chunk.css",
+    "main.js": "/xpense-tracker/static/js/main.b5a9f739.chunk.js",
+    "main.js.map": "/xpense-tracker/static/js/main.b5a9f739.chunk.js.map",
+    "runtime-main.js": "/xpense-tracker/static/js/runtime-main.e68eb3e6.js",
+    "runtime-main.js.map": "/xpense-tracker/static/js/runtime-main.e68eb3e6.js.map",
+    "static/js/2.595ba35a.chunk.js": "/xpense-tracker/static/js/2.595ba35a.chunk.js",
+    "static/js/2.595ba35a.chunk.js.map": "/xpense-tracker/static/js/2.595ba35a.chunk.js.map",
+    "static/js/3.48d3e942.chunk.js": "/xpense-tracker/static/js/3.48d3e942.chunk.js",
+    "static/js/3.48d3e942.chunk.js.map": "/xpense-tracker/static/js/3.48d3e942.chunk.js.map",
+    "index.html": "/xpense-tracker/index.html",
+    "static/css/main.338f07be.chunk.css.map": "/xpense-tracker/static/css/main.338f07be.chunk.css.map",
+    "static/js/2.595ba35a.chunk.js.LICENSE.txt": "/xpense-tracker/static/js/2.595ba35a.chunk.js.LICENSE.txt",
+    "static/media/logo.493c4641.gif": "/xpense-tracker/static/media/logo.493c4641.gif",
+    "static/media/mobile-finance.257b9002.png": "/xpense-tracker/static/media/mobile-finance.257b9002.png",
+    "static/media/profile.8e13791c.jpg": "/xpense-tracker/static/media/profile.8e13791c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e68eb3e6.js",
+    "static/js/2.595ba35a.chunk.js",
+    "static/css/main.338f07be.chunk.css",
+    "static/js/main.b5a9f739.chunk.js"
+  ]
+}
