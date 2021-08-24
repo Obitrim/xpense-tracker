@@ -1,12 +1,10 @@
-.Top {
-	display: flex;
-	align-items: center;
+.HeaderTop {
 	justify-content: space-between;
-
+	
 	height: calc(var(--header-h) * 2/5);
 }
 
-.Top__Logo {
+.HeaderTop__Logo {
 	height: 80%;
 	width: auto;
 	border-radius: 5px;
