@@ -4,8 +4,19 @@
 	height: calc(var(--header-h) * 2/5);
 }
 
-.HeaderTop__Logo {
+.HeaderTop__LogoWrapper {
 	height: 80%;
+	transition: 0.25s;
+}
+
+.HeaderTop__LogoWrapper:hover .HeaderTop__Logo {
+	filter: grayscale(0.5);
+}
+
+.HeaderTop__Logo {
+	height: 100%;
 	width: auto;
 	border-radius: 5px;
+	
+	transition: 0.25s;
 }
