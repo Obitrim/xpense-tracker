@@ -26,6 +26,11 @@
 .Banner__ChartWrapper__Img {
 	width: 100%;
 	height: auto;
+	transition: 0.25s;
+}
+
+.Banner__ChartWrapper__Img:hover {
+	transform: translateY(1.5em);
 }
 
 @media (min-width: 768px) {
