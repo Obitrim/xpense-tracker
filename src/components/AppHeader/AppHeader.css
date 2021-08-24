@@ -6,4 +6,6 @@
 
 	height: var(--header-h);
 	background-color: var(--primary-color);
+	border-bottom-left-radius: calc(var(--b-radius) * 2);
+	border-bottom-right-radius: calc(var(--b-radius) * 2);
 }
