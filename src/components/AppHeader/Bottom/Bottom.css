@@ -1,0 +1,80 @@
+.HeaderBottom {
+	display: flex;
+	align-items: flex-end;
+
+	height: calc(var(--header-h) * 3/5);
+}
+
+.HeaderBottom__Tab {
+	all: initial;
+
+
+	height: 70%;
+	padding: 0 1.5em;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+	font-family: inherit;
+	color: var(--primary-bg-color);
+
+	position: relative;
+	transition: 0.25s ease-in-out;
+}
+
+.HeaderBottom__Tab:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.15);
+	color: var(--light);
+}
+
+.HeaderBottom__Tab--Active {
+	color: var(--primary-color);
+	background-color: var(--light);
+
+	transition: 0.25s ease-in-out;
+}
+
+.HeaderBottom__Tab--Active:hover span {
+	/*font-weight: 500;*/
+	display: none;
+}
+
+.HeaderBottom__Tab--Active span:nth-of-type(1),
+.HeaderBottom__Tab--Active span:nth-of-type(2) {
+	position: absolute;
+	top: 0;
+
+	height: 100%;
+	width: 5px;
+
+	background: var(--light);
+}
+
+.HeaderBottom__Tab--Active span:nth-of-type(1) {
+	left: -5px;
+}
+
+.HeaderBottom__Tab--Active span:nth-of-type(2) {
+	right: -5px;
+}
+
+.HeaderBottom__Tab--Active span::before {
+	content: "";
+
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	height: 100%;
+	width: 100%;
+
+	background-color: var(--primary-color);
+}
+
+.HeaderBottom__Tab--Active span:nth-of-type(1)::before {
+	border-bottom-right-radius: 5px;
+}
+
+.HeaderBottom__Tab--Active span:nth-of-type(2)::before {
+	border-bottom-left-radius: 5px;
+}
