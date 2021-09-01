@@ -8,7 +8,7 @@ const Bottom = (props) => {
   return (
     <Container className="HeaderBottom">
     	<NavLink to="/app" exact className="HeaderBottom__Tab" activeClassName="HeaderBottom__Tab--Active">
-    		📦&nbsp;Dashboard
+    		🏠&nbsp;Dashboard
     		<span></span>
     		<span></span>
     	</NavLink>
@@ -27,6 +27,11 @@ const Bottom = (props) => {
     		<span></span>
     		<span></span>
     	</NavLink>
+        <button className="HeaderBottom__Tab HeaderBottom__Tab--AddExpense">
+            ➕&nbsp;Track
+            <span></span>
+            <span></span>
+        </button>
     </Container>
   )
 }
