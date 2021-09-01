@@ -12,7 +12,9 @@
 
 	padding: 5px;
 	border-radius: 5em;
-	box-shadow: 0 0 8px var(--primary-shadow-color);
+	box-shadow: 
+		0 0 5px var(--primary-shadow-color),
+		0 0 15px var(--primary-shadow-color);
 
 	background-color: white;
 }
