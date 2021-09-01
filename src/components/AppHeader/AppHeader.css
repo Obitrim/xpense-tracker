@@ -4,8 +4,15 @@
 	position: sticky;
 	top: 0;
 
-	height: var(--header-h);
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+
+	height: calc(var(--header-h) * 2/5);
 	background-color: var(--primary-color);
-	border-bottom-left-radius: calc(var(--b-radius) * 2);
-	border-bottom-right-radius: calc(var(--b-radius) * 2);
+}
+
+@media (min-width: 560px) {
+	.AppHeader {
+		height: var(--header-h);
+		box-shadow: none;
+	}
 }
