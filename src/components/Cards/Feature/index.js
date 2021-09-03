@@ -2,10 +2,11 @@ import React from 'react';
 import PropTypes from "prop-types";
 
 import "./Feature.css";
+import BaseCard from "../BaseCard";
 
 const Feature = ({emoji, title, text, ...props}) => {
   return (
-    <article className="Feature">
+    <BaseCard className="Feature">
     	<div className="Feature__Icon">
     		<span>{emoji}</span>
     	</div>
@@ -13,7 +14,7 @@ const Feature = ({emoji, title, text, ...props}) => {
     		<h3>{title}</h3>
     		<p>{text}</p>
     	</div>
-    </article>
+    </BaseCard>
   )
 }
 
