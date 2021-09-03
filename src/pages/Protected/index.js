@@ -15,7 +15,7 @@ import Dashboard from "./Dashboard";
 
 const ProtectedViews = (props) => {
   return (
-    <section>
+    <>
     	<AppHeader />
     	<Container>
             <Switch>
@@ -26,7 +26,7 @@ const ProtectedViews = (props) => {
             </Switch>   
         </Container>
         <MobileNavbar />
-    </section>
+    </>
   )
 }
 
