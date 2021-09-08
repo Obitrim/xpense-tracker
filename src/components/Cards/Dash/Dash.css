@@ -1,0 +1,35 @@
+.DashCard {
+	padding: 1em;
+	width: 100%;
+}
+
+.DashCard__Title {
+	font-size: var(--font-size);
+	color: #8e8e8e;
+	font-weight: 500;
+}
+
+.DashCard__Value {
+	display: flex;
+	align-items: center;
+
+	margin-block: 0.5em;
+
+	font-weight: 700;
+	color: var(--primary-color);
+}
+
+.DashCard__Value span {
+	font-size: calc(var(--font-size) * 2);
+}
+.DashCard__Info {
+	color: #b7b7b7;
+	font-size: calc(var(--font-size) * 0.8);
+	font-weight: 400;
+}
+
+@media (min-width: 560px) {
+	.DashCard {
+		width: auto;
+	}
+}
