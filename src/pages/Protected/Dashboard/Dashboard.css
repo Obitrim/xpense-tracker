@@ -1,0 +1,96 @@
+.Dashboard__Title {
+	margin: 1.5em 0 0.5em;
+
+	font-size: calc(var(--font-size) * 1.3);
+	font-weight: 600;
+	color: var(--primary-color);
+}
+
+.Dashboard__Section {
+	margin-bottom: 2.5em;
+}
+
+.Dashboard__Dashes {
+	display: flex;
+	gap: 1.5em;
+	flex-wrap: wrap;
+}
+
+.Dashboard__Stats {
+	margin-top: 1em;
+}
+
+.Dashboard__Stats > *:nth-child(2) {
+	margin-top: 0.8em;
+}
+
+/*Filter bar*/
+.Dashboard__FilterBar button {
+	all: initial;
+
+	font-family: inherit;
+	font-size: calc(var(--font-size) * 0.85);
+	color: var(--primary-color);
+	background: var(--primary-bg-color);
+
+	padding: 0.3em 0.5em;
+	border-radius: var(--b-radius);
+}
+
+.Dashboard__FilterBar button:hover {
+	cursor: pointer;
+}
+
+.Dashboard__FilterBar button + button {
+	margin-left: 0.5em;
+}
+
+.Dashboard__FilterBar button.Active {
+	background-color: var(--primary-color);
+	color: var(--primary-bg-color);
+}
+
+/*table styles*/
+
+.TableResponsive {
+	width: 100%;
+
+	border-radius: var(--b-radius);
+	overflow: hidden;
+	overflow-x: auto;
+}
+
+.TableResponsive table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.TableResponsive table th {
+	padding: 0.6em 0.5em;
+}
+
+.TableResponsive table td {
+	padding: 0.5em;
+}
+
+.TableResponsive table thead {
+	text-align: left;
+	background-color: var(--primary-color);
+	color: var(--primary-bg-color);
+}
+
+@media (min-width: 768px) {
+	.Dashboard__Stats {
+		display: flex;
+		gap: 1.5em;
+	}
+
+	.Dashboard__Stats > *:nth-child(1) {
+		flex: 2;
+	}
+
+	.Dashboard__Stats > *:nth-child(2) {
+		margin-top: 0;
+		flex: 1;
+	}
+}
