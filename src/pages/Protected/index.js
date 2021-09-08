@@ -17,7 +17,7 @@ const ProtectedViews = (props) => {
   return (
     <>
     	<AppHeader />
-    	<Container>
+    	<Container style={{ paddingBottom: "2em" }}>
             <Switch>
                 <ProtectedRoute path="/app" exact component={Dashboard} />
                 <ProtectedRoute path="/app/accounts" component={Accounts} />
