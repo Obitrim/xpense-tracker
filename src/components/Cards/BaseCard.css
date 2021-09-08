@@ -1,6 +1,10 @@
 .BaseCard {
 	background-color: white;
-	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+	box-shadow: 
+		2px 2px 5px rgba(0, 0, 0, 0.1),
+		-2px -2px 15px rgba(255, 255, 255, 0.6)
+		;
 }
 
 .BaseCard--Flat {
